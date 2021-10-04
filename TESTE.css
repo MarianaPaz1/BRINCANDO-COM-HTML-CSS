@@ -1,0 +1,328 @@
+/* INFORMAÇÕES GERAIS DAS PÁGINA */
+/* ------------------------------------------------------------------------PÁGINA  01 */
+body {
+  /* font-family prioridade de fontes*/
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* font-size indica o tamanho da letra  */
+  font-size: 12pt;
+  /* cor da página */
+  background-color: #f3efcc;
+  /* text-align alinha o texto */
+  text-align: justify;
+  /* color - cor da letra */
+  color: black;
+  /* line-height controla o espaçamento entre linhas */
+  line-height: 20px;
+}
+/* LOGOTIPO  */
+#logo {
+  /*width largura  */
+  width: 30%;
+  /* height altura */
+  height: 100px;
+  /* padding - distância de um conteudo e sua borda */
+  padding-left: 15px;
+  /* posição da imagem */
+  position: relative;
+  @media (min-width: 992px;);
+}
+
+/* CABEÇALHO */
+#cabeçalho {
+  background-color: #32502e;
+  width: 100%;
+  height: 50px;
+  text-align: left;
+  font-weight: bolder;
+  /* margin - margem */
+  margin: 0;
+  padding-top: 20px;
+}
+/* MENU */
+nav {
+  height: 70px;
+  width: 100%;
+  background-color: #f3efcc;
+  margin: 0;
+}
+
+nav ul {
+  /* display - caixa de renderização */
+  display: flex;
+  /* flex direction estabelece a direção de um elemento flexível */
+  flex-direction: row;
+  justify-content: right;
+  margin-top: 1px;
+  /* especifica o tipo de estilo - none significa nenhum marcador */
+  list-style: none;
+}
+
+nav li {
+  list-style: none;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  /* font-weight - peso ou intensidade da fonte */
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 1px;
+  padding-top: 10px;
+}
+
+nav li:hover {
+  background-color: yellow;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: white;
+}
+
+nav a {
+  text-decoration: none;
+  color: #32502e;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+}
+
+.item {
+  width: 15%;
+}
+/* BANNER */
+#banner {
+  width: 100%;
+  height: 500px;
+  margin: 0;
+}
+
+h4 {
+  color: #32502e;
+}
+/* QUEM SOMOS */
+.quemSomos1 {
+  color: black;
+  /* border = borda */
+  border: none;
+  display: block;
+  flex-direction: row;
+  justify-content: center;
+  /* controla o alinhamento dos itens no trecho transversal */
+  align-items: center;
+  margin: auto;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+}
+
+.section1 {
+  background-color: #f3efcc;
+  width: 15%;
+  margin-left: 3px;
+  height: 350px;
+  padding: 1px;
+  /* float determina o espaçamento de um elemento - é retirado do seu eixo principal */
+  float: left;
+}
+
+.section2 {
+  background-color: #f3efcc;
+  width: 60%;
+  margin-left: 3px;
+  height: 350px;
+  padding: 1px;
+  float: left;
+  text-align: center;
+}
+.section3 {
+  background-color: #f3efcc;
+  width: 15%;
+  margin-left: 3px;
+  height: 350px;
+  padding: 1px;
+  float: left;
+}
+
+p {
+  /* text-indent identifica a quantidade de recuo das linhas */
+  text-indent: 20px;
+}
+
+h6 {
+  text-align: center;
+  color: #32502e;
+}
+
+/* FLEX  */
+
+#img1 {
+  width: 30%;
+  height: 150px;
+  position: relative;
+}
+
+#img2 {
+  width: 60%;
+  height: 150px;
+  position: relative;
+}
+
+#img3 {
+  width: 30%;
+  height: 150px;
+  position: relative;
+}
+.beneficios {
+  background-color: #406343;
+  color: black;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  flex-wrap: wrap;
+  width: 100%;
+  display: flex;
+  border: solid 1px #406343;
+}
+
+.item1 {
+  background-color: #f3efcc;
+  width: 33%;
+  margin-left: 1px;
+  height: 300px;
+  padding: 1px;
+  float: left;
+}
+.item2 {
+  background-color: #f3efcc;
+  width: 33%;
+  margin-left: 1px;
+  height: 300px;
+  padding: 1px;
+  float: left;
+}
+.item3 {
+  background-color: #f3efcc;
+  width: 33%;
+  margin-left: 1px;
+  height: 300px;
+  padding: 1px;
+  float: left;
+}
+/* FINAL */
+
+.final {
+  background-color: #32502e;
+  color: white;
+  display: flex;
+  /* flex direction muda a coluna */
+  flex-direction: row;
+  /* define o alinhamento dos itens ao longo do eixo principal */
+  justify-content: space-evenly;
+  /* justify-content: space-evenly;
+    Separa e alinha os blocos  
+    justify-content: space-around;
+     define o alinhamento dos itens nos trechos transversais 
+    align item centraliza o texto da cia*/
+  align-items: center;
+  margin: auto;
+  /* wrap quebra a linha */
+  flex-wrap: wrap;
+  width: 100%;
+}
+.box1 {
+  width: 32.5%;
+  margin-left: 3px;
+  height: 150px;
+  padding: 1px;
+  float: left;
+}
+.box2 {
+  width: 34%;
+  margin-left: 3px;
+  height: 150px;
+  padding: 1px;
+  float: left;
+  text-align: center;
+}
+
+.box3 {
+  width: 32%;
+  margin-left: 3px;
+  height: 150px;
+  padding: 1px;
+  float: left;
+}
+
+/* FOOTER */
+.rodape {
+  background-color: #32502e;
+  color: white;
+  width: 100%;
+  height: 50px;
+  margin-top: 1px;
+  clear: left;
+  text-align: center;
+  padding-right: 30px;
+}
+/* ---------------------------------------------------------------------------PÁGINA 2 */
+.tipos {
+  background-color: #32502e;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: black 1px solid;
+  font-family: fantasy;
+}
+
+
+.tiposLog {
+  width: 100%;
+  height: 50px;
+  float: left;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  border: black 1px solid;
+}
+.tipo1 {
+  width: 49%;
+  margin-left: 3px;
+  height: 427px;
+  padding: 1px;
+  float: left;
+  border: black 1px solid;
+  text-align: center;
+}
+
+.tipo2 {
+  width: 49%;
+  margin-left: 3px;
+  height: 400px;
+  padding-top: 30px;
+  float: left;
+  border: black 1px solid;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-family: fantasy;
+}
+
+/* ----------------------------------------------------------------PÁGINA 3 */
+/* VERIFICAR O ERRO DE BORDA */
+#pag3 {
+  border: solid;
+  border: #32502e;
+}
+
+legend {
+  font-weight: bold;
+}
