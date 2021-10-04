@@ -24,13 +24,13 @@
         </ul>
 
     </nav>
-    
+    <div id="pag3">
         <h2>CADASTRO PARA COLETA DE MEDICAMENTOS</h2>
     <!--ACTION PARA CHAMAR UM ARQUIVO DE METHOD PARA SELECIONAR O MÉTODO DE ENVIO DESSES DADOS-->
-   <div id="pag3">
+</div>
     <form class="form">
-        <!--Fieldset é a caixa que cria a linha que desenha o formulário-->
-        <fieldset>
+       
+        <div id="pag3">
             <legend>LOGIN</legend>
             <p>
                 <label for="email">
@@ -48,10 +48,10 @@
                 </label>
                 <input type="password" id="senha" placeholder="digite sua senha aqui">
             </p>
-        </fieldset>
+        </div>
         <br>
         <br>
-        <fieldset>
+        <div id="pag3">
             <legend> DADOS PESSOAIS</legend>
 
             <p>
@@ -114,11 +114,11 @@
 
                 </select>
             </p>
-        </fieldset>
+        </div>
 
         <br>
         <br>
-        <fieldset>
+        <div id="pag3">
             <!--Align Right centraliza para direita-->
             <legend> SELECIONE A(S) FARMACÊUTICA(S) DO(S) MEDICAMENTO(S) A SER(EM) DEVOLVIDO(S): 
             </legend>
@@ -131,24 +131,24 @@
             <input type="checkbox" name="opções"> ZAMBON <BR>
 
             <!--Da para colocar um Fieldset que englobam outros fieldsets - exemplo -->
-        </fieldset>
+            </div>
         <br>
         <br>
 
-        <fieldset>
+        <div id="pag3">
             <!--radio é usado para seleção de um único elemento na lista.-->
             <legend> ALGUM MEDICAMENTO VENCIDO? </legend>
             <label for="positivo"></label>
             <input type="radio" id="sim" name="positivo" value="0"> SIM <br>
             <input type="radio" id="não" name="positivo" value="1"> NÃO <br>
-        </fieldset>
-
-        </fieldset>
+        </div>
         <br>
+        <br>    
+        <div id="pag3">
+       
 
         <!--textearea permite que o usuário digite um texto/ maior espaço-->
-        <fieldset>
-            <legend> FALE CONOSCO: </legend>
+                    <legend> FALE CONOSCO: </legend>
             <br>
             <label for="assunto">
                 Assunto:
@@ -160,7 +160,7 @@
                 Mensagem:
                 <textarea id="mensagem" placeholder="Digite aqui sua mensagem"></textarea>
             </label>
-        </fieldset>
+        </div>
 
         <!--botão para submeter as informação as informação no banco de dados -->
         <p>
@@ -175,7 +175,7 @@
             </button>
 
         </p>
-    </div>
+    
     </form>
     <br>
     <br>

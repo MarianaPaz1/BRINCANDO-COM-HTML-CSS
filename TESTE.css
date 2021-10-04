@@ -319,8 +319,13 @@ h2 {
 /* ----------------------------------------------------------------PÁGINA 3 */
 /* VERIFICAR O ERRO DE BORDA */
 #pag3 {
-  border: solid;
-  border: #32502e;
+  border-top-style: inset;
+  border-radius: 30px;
+  border-width: 8px;
+  border-color:green;
+  background-color: #f3efcc;
+  line-height: 20px;
+  
 }
 
 legend {
